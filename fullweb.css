@@ -1,0 +1,179 @@
+body{
+   margin: 0;
+   padding: 0;
+   overflow: scroll;
+}
+header {
+
+    
+    font-family: sans-serif;
+
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: rgb(227 246 255 / 40%);
+ padding-bottom: 10px;
+ padding-top: 10px;
+}
+
+.icons a {
+    color: rgba(123, 123, 123, 0.516);
+text-decoration: none;
+font-size: 25px;
+}
+.icons {
+    margin-left: 100px;
+}
+a {
+    margin-left: 25px;
+}
+.contact {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 110px;
+   
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+.contact i {
+    margin-right: 15px;
+    color: rgb(10, 181, 228);
+    font-size: 25px;
+}
+.contact li {
+    font-size: 20px;
+    font-weight: 35px;
+    color: gray;
+
+}
+.lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.nav li {
+    display: inline-block;
+    padding-left: 25px;
+   
+}
+.nav a {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+
+}
+.logo {
+    margin-left: 119px;
+}
+.logo img {
+    width: 260px;}
+    .lower .nav {
+       
+        font-size: 25px;
+    }
+    .appointment {
+       margin-right: 100px;
+      
+
+    }
+   .appointment button {
+    border-style: none;
+   padding: 20px 50px 20px 50px;
+   font-size: 20px;
+   font-family: sans-serif;
+   color: white;
+   background-color: rgba(0, 158, 220, 0.95);
+   border-radius: 10px;
+   transition: .3s;
+   
+   }
+   button:hover {
+    background-color: white;
+    color: rgb(18, 160, 207);
+    border: 2px solid rgb(18, 160, 207);
+   
+   }
+   .image {
+   background-image: url(young-handsome-physician-medical-robe-with-stethoscope.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+   height: 100vh;
+   }
+   .imgcontent {
+    position: absolute;
+    top: 80%;
+    left: 6%;
+    transform: translateY(-50%);
+    font-family:popins,sans-serif;
+   }
+   #up {
+    font-size: 125px;
+    line-height: 5px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+  
+   }
+   #down {
+    font-size: 125px;
+    font-weight: lighter;
+    letter-spacing: ;
+    margin-bottom: 10px;
+   }
+   #rr {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: popins, sans-serif;
+    letter-spacing: 3px;
+    line-height: 10px;
+    color: rgb(105, 104, 104);
+    font-weight: normal;
+   }
+  #down #rr {
+    line-height: 10px;
+  }
+  .imgcontent button {
+    padding: 30px 70px 30px 70px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 15;
+    background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+ color: white;
+ border-style: none;
+ border-radius: 10px;
+ text-align: center;
+  }
+  .imgcontent a {
+    margin-left: 0px;}
+    .but2:hover {
+        border: 2px solid rgb(20, 158, 244);
+        background: linear-gradient(to right, #f7f8f9, #ffffff);
+        color:rgb(0, 151, 220) ;
+        transition: 0.5s;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #0181f5;
+     
+        margin-bottom: 100px;
+    }
+    .container div {
+      
+        align-items: center;
+        width: 100%;
+        margin: 30px;
+        padding: 30px;
+        margin-bottom: 100px;
+    }
